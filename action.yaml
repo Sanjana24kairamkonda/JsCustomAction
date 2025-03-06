@@ -1,0 +1,11 @@
+name: 'My JavaScript Action'
+description: 'A simple custom action in JavaScript'
+inputs:
+  name:
+    description: 'Your name'
+    required: true
+    default: 'World'
+runs:
+  using: 'node12'  # You can use 'node12' or 'node16'
+  main: 'src/index.js'  # Path to the JavaScript file that implements the action
+
